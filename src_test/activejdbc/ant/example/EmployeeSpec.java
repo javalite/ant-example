@@ -30,7 +30,8 @@ public class EmployeeSpec{
 
     @Before
     public void before(){
-        Base.open("com.mysql.jdbc.Driver", "jdbc:mysql://localhost/test", "root", "p@ssw0rd");
+        Base.open("com.mysql.jdbc.Driver", "jdbc:mysql://localhost/test?nullNamePatternMatchesAll=true", "root", "p@ssw0rd");
+	
         Base.openTransaction();
     }
 
