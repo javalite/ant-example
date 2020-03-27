@@ -1,6 +1,1 @@
-# Example of ActiveJDBC using Ant
-
-To execute:
-
-1. Run create.sql against your instance of MySQL - this will create a new table. 
-2. Execute: "ant run" in this directory
+# This repository is deprecated. All examples have moved to the [JavaLite Examples](https://github.com/javalite/javalite-examples) repo.
